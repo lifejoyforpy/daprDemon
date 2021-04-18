@@ -1,0 +1,9 @@
+/Users/zhouqingping/DaprDemon/AppDomain/bin/Debug/netstandard2.1/AppDomain.deps.json
+/Users/zhouqingping/DaprDemon/AppDomain/bin/Debug/netstandard2.1/AppDomain.dll
+/Users/zhouqingping/DaprDemon/AppDomain/bin/Debug/netstandard2.1/AppDomain.pdb
+/Users/zhouqingping/DaprDemon/AppDomain/obj/Debug/netstandard2.1/AppDomain.csprojAssemblyReference.cache
+/Users/zhouqingping/DaprDemon/AppDomain/obj/Debug/netstandard2.1/AppDomain.AssemblyInfoInputs.cache
+/Users/zhouqingping/DaprDemon/AppDomain/obj/Debug/netstandard2.1/AppDomain.AssemblyInfo.cs
+/Users/zhouqingping/DaprDemon/AppDomain/obj/Debug/netstandard2.1/AppDomain.csproj.CoreCompileInputs.cache
+/Users/zhouqingping/DaprDemon/AppDomain/obj/Debug/netstandard2.1/AppDomain.dll
+/Users/zhouqingping/DaprDemon/AppDomain/obj/Debug/netstandard2.1/AppDomain.pdb

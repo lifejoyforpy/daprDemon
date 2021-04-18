@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/zhouqingping/DaprDemon/AppDomain/AppDomain.csproj": {}
+  },
+  "projects": {
+    "/Users/zhouqingping/DaprDemon/AppDomain/AppDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zhouqingping/DaprDemon/AppDomain/AppDomain.csproj",
+        "projectName": "AppDomain",
+        "projectPath": "/Users/zhouqingping/DaprDemon/AppDomain/AppDomain.csproj",
+        "packagesPath": "/Users/zhouqingping/.nuget/packages/",
+        "outputPath": "/Users/zhouqingping/DaprDemon/AppDomain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/zhouqingping/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/Users/zhouqingping/work/ContentLibrary/backend/CafPackage": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

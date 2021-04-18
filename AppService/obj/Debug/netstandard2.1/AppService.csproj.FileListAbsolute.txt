@@ -1,0 +1,4 @@
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/netstandard2.1/AppService.csprojAssemblyReference.cache
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/netstandard2.1/AppService.AssemblyInfoInputs.cache
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/netstandard2.1/AppService.AssemblyInfo.cs
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/netstandard2.1/AppService.csproj.CoreCompileInputs.cache

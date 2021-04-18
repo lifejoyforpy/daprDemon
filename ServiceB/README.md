@@ -1,0 +1,1 @@
+dapr run --app-id ServiceB   --dapr-http-port 3510 --app-port 5000  -- dotnet run  --project ./ServiceB

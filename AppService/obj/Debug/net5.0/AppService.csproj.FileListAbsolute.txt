@@ -1,0 +1,12 @@
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/net5.0/AppService.csprojAssemblyReference.cache
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/net5.0/AppService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/net5.0/AppService.AssemblyInfoInputs.cache
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/net5.0/AppService.AssemblyInfo.cs
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/net5.0/AppService.csproj.CoreCompileInputs.cache
+/Users/zhouqingping/DaprDemon/AppService/bin/Debug/net5.0/AppService.deps.json
+/Users/zhouqingping/DaprDemon/AppService/bin/Debug/net5.0/AppService.dll
+/Users/zhouqingping/DaprDemon/AppService/bin/Debug/net5.0/ref/AppService.dll
+/Users/zhouqingping/DaprDemon/AppService/bin/Debug/net5.0/AppService.pdb
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/net5.0/AppService.dll
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/net5.0/ref/AppService.dll
+/Users/zhouqingping/DaprDemon/AppService/obj/Debug/net5.0/AppService.pdb

@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService";
+
+package greet;
+
+
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
+
+
+message Account {
+  string Id = 1;
+  // Ideally we'd use the Money data type here, but to keep the sample simple we're using an int.
+  int32 Balance = 2;
+}
+
+message GetAccountRequest {
+  string Id = 1;
+}
+
+message Transaction {
+  string Id = 1;
+  // Ideally we'd use the Money data type here, but to keep the sample simple we're using an int.
+  int32 Amount = 2;
+}
