@@ -10,11 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AppService\AppService.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-
+    <Protobuf Include="Protos\*.proto" ProtoRoot="Protos" GrpcServices="None" />
   </ItemGroup>
 
 </Project>

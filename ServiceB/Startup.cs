@@ -40,7 +40,6 @@ namespace ServiceB
                            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
                         PropertyNameCaseInsensitive = true,
                     }));
-            services.AddGrpc();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ServiceB", Version = "v1" });
@@ -73,7 +72,7 @@ namespace ServiceB
                 //This is is not needed unless using pub/sub.
                 endpoints.MapSubscribeHandler(); //
                 endpoints.MapControllers();
-                endpoints.MapGrpcService<BankingGrpcService>();
+                // endpoints.MapGrpcService<BankingGrpcService>();
             });
         }
     }

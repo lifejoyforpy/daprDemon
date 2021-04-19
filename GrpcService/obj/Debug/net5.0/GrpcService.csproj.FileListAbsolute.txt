@@ -15,8 +15,6 @@
 /Users/zhouqingping/DaprDemon/GrpcService/bin/Debug/net5.0/Grpc.Net.Client.dll
 /Users/zhouqingping/DaprDemon/GrpcService/bin/Debug/net5.0/Grpc.Net.ClientFactory.dll
 /Users/zhouqingping/DaprDemon/GrpcService/bin/Debug/net5.0/Grpc.Net.Common.dll
-/Users/zhouqingping/DaprDemon/GrpcService/bin/Debug/net5.0/AppService.dll
-/Users/zhouqingping/DaprDemon/GrpcService/bin/Debug/net5.0/AppService.pdb
 /Users/zhouqingping/DaprDemon/GrpcService/obj/Debug/net5.0/GrpcService.csprojAssemblyReference.cache
 /Users/zhouqingping/DaprDemon/GrpcService/obj/Debug/net5.0/GrpcService.GeneratedMSBuildEditorConfig.editorconfig
 /Users/zhouqingping/DaprDemon/GrpcService/obj/Debug/net5.0/GrpcService.AssemblyInfoInputs.cache

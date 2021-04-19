@@ -88,7 +88,8 @@ namespace ServiceA.Controllers
         public async Task<OkResult> StateStoreExample([FromServices] DaprClient daprClient)
         {
             // Save state which will create a new etag
-             await daprClient.SaveStateAsync<Account>(storeName, stateKeyName,  new Account() { Id = "zhangsan", Balance = 1000, }, cancellationToken: _cts.Token);
+             await daprClient.SaveStateAsync<Account>(storeName, stateKeyName,  
+                 new Account() { Id = "zhangsan", Balance = 1000, }, cancellationToken: _cts.Token);
              _logger.LogDebug("Saved state which created a new entry with an initial etag");
             //
             // Read the state and etag

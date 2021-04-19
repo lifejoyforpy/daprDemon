@@ -22,10 +22,10 @@ namespace GrpcService
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    // webBuilder.ConfigureKestrel(options =>
-                    // {
-                    //     options.ListenLocalhost(5005,o=>o.Protocols=HttpProtocols.Http2);
-                    // });
+                    webBuilder.ConfigureKestrel(options =>
+                    {
+                        options.ListenLocalhost(5005,o=>o.Protocols=HttpProtocols.Http2);
+                    });
                     webBuilder.UseStartup<Startup>();
                 });
     }

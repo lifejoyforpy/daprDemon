@@ -4,5 +4,12 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
-
+    <ItemGroup>
+  
+        <PackageReference Include="Google.Api.CommonProtos" Version="2.2.0" />
+        <PackageReference Include="Grpc.Tools" Version="2.35.0" PrivateAssets="All" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\GrpcService\GrpcService.csproj" />
+    </ItemGroup>
 </Project>

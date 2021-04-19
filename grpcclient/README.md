@@ -1,0 +1,1 @@
+dapr run --app-id grpcClient -- dotnet run

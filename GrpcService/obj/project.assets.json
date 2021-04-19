@@ -322,23 +322,6 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
-      },
-      "AppService/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Dapr.Client": "1.1.0",
-          "Google.Api.CommonProtos": "2.2.0",
-          "Google.Protobuf": "3.13.0",
-          "Grpc.AspNetCore": "2.30.0",
-          "Grpc.Net.Client": "2.32.0"
-        },
-        "compile": {
-          "bin/placeholder/AppService.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AppService.dll": {}
-        }
       }
     }
   },
@@ -860,16 +843,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "AppService/1.0.0": {
-      "type": "project",
-      "path": "../AppService/AppService.csproj",
-      "msbuildProject": "../AppService/AppService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "AppService >= 1.0.0",
       "Dapr.AspNetCore >= 1.1.0",
       "Grpc.AspNetCore >= 2.34.0"
     ]
@@ -903,11 +880,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "/Users/zhouqingping/DaprDemon/AppService/AppService.csproj": {
-              "projectPath": "/Users/zhouqingping/DaprDemon/AppService/AppService.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

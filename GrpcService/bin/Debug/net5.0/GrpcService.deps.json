@@ -25,7 +25,6 @@
     ".NETCoreApp,Version=v5.0": {
       "GrpcService/1.0.0": {
         "dependencies": {
-          "AppService": "1.0.0",
           "Dapr.AspNetCore": "1.1.0",
           "Grpc.AspNetCore": "2.34.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -525,21 +524,6 @@
       "System.Memory/4.5.3": {},
       "System.Net.Http.Json/5.0.0": {},
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
-      "AppService/1.0.0": {
-        "dependencies": {
-          "Dapr.Client": "1.1.0",
-          "Google.Api.CommonProtos": "2.2.0",
-          "Google.Protobuf": "3.14.0",
-          "Grpc.AspNetCore": "2.34.0",
-          "Grpc.Net.Client": "2.34.0"
-        },
-        "runtime": {
-          "AppService.dll": {}
-        },
-        "compile": {
-          "AppService.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2434,11 +2418,6 @@
       "sha512": "sha512-hMkdWxksypQlFXB7JamQegDscxEAQO4FHd/lw/zlSZU9dZgAij65xjCrXer183wvoNAzJic5zzjj2oc9/dloWg==",
       "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
-    },
-    "AppService/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",
